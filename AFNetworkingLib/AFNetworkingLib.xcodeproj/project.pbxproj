@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C50C0B51AC21BF50049E062 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C50C0B31AC21BF50049E062 /* AFNetworkActivityLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C50C0B61AC21BF50049E062 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50C0B41AC21BF50049E062 /* AFNetworkActivityLogger.m */; };
+		5C50C0B71AC21BFA0049E062 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C50C0B31AC21BF50049E062 /* AFNetworkActivityLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C50C0B81AC21BFE0049E062 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50C0B41AC21BF50049E062 /* AFNetworkActivityLogger.m */; };
 		9A84D48D1A88C1E7008EF006 /* AFNetworkingiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D48C1A88C1E7008EF006 /* AFNetworkingiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4AD1A88C20D008EF006 /* AFNetworkingOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4AC1A88C20D008EF006 /* AFNetworkingOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4D51A88C380008EF006 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C21A88C380008EF006 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,6 +71,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C50C0B31AC21BF50049E062 /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
+		5C50C0B41AC21BF50049E062 /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityLogger.m; sourceTree = "<group>"; };
 		9A84D4871A88C1E7008EF006 /* AFNetworkingiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworkingiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A84D48B1A88C1E7008EF006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A84D48C1A88C1E7008EF006 /* AFNetworkingiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingiOS.h; sourceTree = "<group>"; };
@@ -165,6 +171,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C50C0B21AC21BF50049E062 /* AFNetworkActivityLogger */ = {
+			isa = PBXGroup;
+			children = (
+				5C50C0B31AC21BF50049E062 /* AFNetworkActivityLogger.h */,
+				5C50C0B41AC21BF50049E062 /* AFNetworkActivityLogger.m */,
+			);
+			name = AFNetworkActivityLogger;
+			path = ../AFNetworkActivityLogger;
+			sourceTree = "<group>";
+		};
 		9A84D47D1A88C1E7008EF006 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +189,7 @@
 				9A84D5981A88C544008EF006 /* Resources */,
 				9A84D5381A88C4D0008EF006 /* Tests */,
 				9A84D4C11A88C380008EF006 /* AFNetworking */,
+				5C50C0B21AC21BF50049E062 /* AFNetworkActivityLogger */,
 				9A84D4891A88C1E7008EF006 /* AFNetworkingiOS */,
 				9A84D4A91A88C20D008EF006 /* AFNetworkingOSX */,
 				9A84D4881A88C1E7008EF006 /* Products */,
@@ -390,6 +407,7 @@
 				9A84D5351A88C3E3008EF006 /* UIWebView+AFNetworking.h in Headers */,
 				9A84D5251A88C3E3008EF006 /* UIAlertView+AFNetworking.h in Headers */,
 				9A84D52B1A88C3E3008EF006 /* UIImageView+AFNetworking.h in Headers */,
+				5C50C0B51AC21BF50049E062 /* AFNetworkActivityLogger.h in Headers */,
 				9A84D4F51A88C380008EF006 /* AFURLConnectionOperation.h in Headers */,
 				9A84D5321A88C3E3008EF006 /* UIRefreshControl+AFNetworking.h in Headers */,
 				9A84D4E91A88C380008EF006 /* AFNetworkReachabilityManager.h in Headers */,
@@ -408,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A84D5081A88C380008EF006 /* AFURLSessionManager.h in Headers */,
+				5C50C0B71AC21BFA0049E062 /* AFNetworkActivityLogger.h in Headers */,
 				9A84D4FC1A88C380008EF006 /* AFURLRequestSerialization.h in Headers */,
 				9A84D4AD1A88C20D008EF006 /* AFNetworkingOSX.h in Headers */,
 				9A84D4D61A88C380008EF006 /* AFHTTPRequestOperation.h in Headers */,
@@ -521,6 +540,7 @@
 				9A84D5091A88C380008EF006 /* AFURLSessionManager.m in Sources */,
 				9A84D5331A88C3E3008EF006 /* UIRefreshControl+AFNetworking.m in Sources */,
 				9A84D4E31A88C380008EF006 /* AFHTTPSessionManager.m in Sources */,
+				5C50C0B61AC21BF50049E062 /* AFNetworkActivityLogger.m in Sources */,
 				9A84D4F11A88C380008EF006 /* AFSecurityPolicy.m in Sources */,
 				9A84D5301A88C3E3008EF006 /* UIProgressView+AFNetworking.m in Sources */,
 				9A84D5231A88C3E3008EF006 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -541,6 +561,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C50C0B81AC21BFE0049E062 /* AFNetworkActivityLogger.m in Sources */,
 				9A84D50B1A88C380008EF006 /* AFURLSessionManager.m in Sources */,
 				9A84D4E51A88C380008EF006 /* AFHTTPSessionManager.m in Sources */,
 				9A84D4F31A88C380008EF006 /* AFSecurityPolicy.m in Sources */,
