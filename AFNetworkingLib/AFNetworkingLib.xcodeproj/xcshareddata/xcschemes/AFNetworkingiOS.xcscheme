@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A84D4861A88C1E7008EF006"
-               BuildableName = "AFNetworkingiOS.framework"
+               BuildableName = "AFNetworking.framework"
                BlueprintName = "AFNetworkingiOS"
                ReferencedContainer = "container:AFNetworkingLib.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A84D4861A88C1E7008EF006"
-            BuildableName = "AFNetworkingiOS.framework"
+            BuildableName = "AFNetworking.framework"
             BlueprintName = "AFNetworkingiOS"
             ReferencedContainer = "container:AFNetworkingLib.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A84D4861A88C1E7008EF006"
-            BuildableName = "AFNetworkingiOS.framework"
+            BuildableName = "AFNetworking.framework"
             BlueprintName = "AFNetworkingiOS"
             ReferencedContainer = "container:AFNetworkingLib.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A84D4861A88C1E7008EF006"
-            BuildableName = "AFNetworkingiOS.framework"
+            BuildableName = "AFNetworking.framework"
             BlueprintName = "AFNetworkingiOS"
             ReferencedContainer = "container:AFNetworkingLib.xcodeproj">
          </BuildableReference>

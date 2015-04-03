@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		5CEF2FA51ACB71EA003E8F61 /* AFNetworkActivityLoggeriOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEF2FA41ACB71EA003E8F61 /* AFNetworkActivityLoggeriOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CEF2FCE1ACB720E003E8F61 /* AFNetworkActivityLoggerOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEF2FCD1ACB720E003E8F61 /* AFNetworkActivityLoggerOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CEF2FE61ACB7239003E8F61 /* AFNetworkingOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A84D4A81A88C20D008EF006 /* AFNetworkingOSX.framework */; };
-		5CEF2FE71ACB7240003E8F61 /* AFNetworkingiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A84D4871A88C1E7008EF006 /* AFNetworkingiOS.framework */; };
+		5CEF2FE61ACB7239003E8F61 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A84D4A81A88C20D008EF006 /* AFNetworking.framework */; };
+		5CEF2FE71ACB7240003E8F61 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A84D4871A88C1E7008EF006 /* AFNetworking.framework */; };
 		5CEF2FE81ACB7249003E8F61 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C50C0B31AC21BF50049E062 /* AFNetworkActivityLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CEF2FE91ACB7249003E8F61 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50C0B41AC21BF50049E062 /* AFNetworkActivityLogger.m */; };
 		5CEF2FEB1ACB7249003E8F61 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50C0B41AC21BF50049E062 /* AFNetworkActivityLogger.m */; };
 		5CEF2FEC1ACB75C7003E8F61 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C50C0B31AC21BF50049E062 /* AFNetworkActivityLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A84D48D1A88C1E7008EF006 /* AFNetworkingiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D48C1A88C1E7008EF006 /* AFNetworkingiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A84D48D1A88C1E7008EF006 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D48C1A88C1E7008EF006 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4AD1A88C20D008EF006 /* AFNetworkingOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4AC1A88C20D008EF006 /* AFNetworkingOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4D51A88C380008EF006 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C21A88C380008EF006 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4D61A88C380008EF006 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C21A88C380008EF006 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,7 +29,6 @@
 		9A84D4E21A88C380008EF006 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C61A88C380008EF006 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4E31A88C380008EF006 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D4C71A88C380008EF006 /* AFHTTPSessionManager.m */; };
 		9A84D4E51A88C380008EF006 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D4C71A88C380008EF006 /* AFHTTPSessionManager.m */; };
-		9A84D4E71A88C380008EF006 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C81A88C380008EF006 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4E81A88C380008EF006 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C81A88C380008EF006 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4E91A88C380008EF006 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C91A88C380008EF006 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4EA1A88C380008EF006 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C91A88C380008EF006 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,16 +93,16 @@
 /* Begin PBXFileReference section */
 		5C50C0B31AC21BF50049E062 /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
 		5C50C0B41AC21BF50049E062 /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityLogger.m; sourceTree = "<group>"; };
-		5CEF2FA01ACB71EA003E8F61 /* AFNetworkActivityLoggeriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworkActivityLoggeriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEF2FA01ACB71EA003E8F61 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworkActivityLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEF2FA31ACB71EA003E8F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CEF2FA41ACB71EA003E8F61 /* AFNetworkActivityLoggeriOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLoggeriOS.h; sourceTree = "<group>"; };
-		5CEF2FC91ACB720E003E8F61 /* AFNetworkActivityLoggerOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworkActivityLoggerOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEF2FC91ACB720E003E8F61 /* AFNetworkActivityLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworkActivityLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEF2FCC1ACB720E003E8F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CEF2FCD1ACB720E003E8F61 /* AFNetworkActivityLoggerOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLoggerOSX.h; sourceTree = "<group>"; };
-		9A84D4871A88C1E7008EF006 /* AFNetworkingiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworkingiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A84D4871A88C1E7008EF006 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A84D48B1A88C1E7008EF006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A84D48C1A88C1E7008EF006 /* AFNetworkingiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingiOS.h; sourceTree = "<group>"; };
-		9A84D4A81A88C20D008EF006 /* AFNetworkingOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworkingOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A84D48C1A88C1E7008EF006 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		9A84D4A81A88C20D008EF006 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A84D4AB1A88C20D008EF006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A84D4AC1A88C20D008EF006 /* AFNetworkingOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingOSX.h; sourceTree = "<group>"; };
 		9A84D4C21A88C380008EF006 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -185,7 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CEF2FE71ACB7240003E8F61 /* AFNetworkingiOS.framework in Frameworks */,
+				5CEF2FE71ACB7240003E8F61 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CEF2FE61ACB7239003E8F61 /* AFNetworkingOSX.framework in Frameworks */,
+				5CEF2FE61ACB7239003E8F61 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +278,10 @@
 		9A84D4881A88C1E7008EF006 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A84D4871A88C1E7008EF006 /* AFNetworkingiOS.framework */,
-				9A84D4A81A88C20D008EF006 /* AFNetworkingOSX.framework */,
-				5CEF2FA01ACB71EA003E8F61 /* AFNetworkActivityLoggeriOS.framework */,
-				5CEF2FC91ACB720E003E8F61 /* AFNetworkActivityLoggerOSX.framework */,
+				9A84D4871A88C1E7008EF006 /* AFNetworking.framework */,
+				9A84D4A81A88C20D008EF006 /* AFNetworking.framework */,
+				5CEF2FA01ACB71EA003E8F61 /* AFNetworkActivityLogger.framework */,
+				5CEF2FC91ACB720E003E8F61 /* AFNetworkActivityLogger.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -291,7 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				9A84D50D1A88C3E3008EF006 /* UIKit+AFNetworking */,
-				9A84D48C1A88C1E7008EF006 /* AFNetworkingiOS.h */,
+				9A84D48C1A88C1E7008EF006 /* AFNetworking.h */,
 				9A84D48A1A88C1E7008EF006 /* Supporting Files */,
 			);
 			path = AFNetworkingiOS;
@@ -501,7 +500,7 @@
 				9A84D52F1A88C3E3008EF006 /* UIProgressView+AFNetworking.h in Headers */,
 				9A84D5071A88C380008EF006 /* AFURLSessionManager.h in Headers */,
 				9A84D4FB1A88C380008EF006 /* AFURLRequestSerialization.h in Headers */,
-				9A84D48D1A88C1E7008EF006 /* AFNetworkingiOS.h in Headers */,
+				9A84D48D1A88C1E7008EF006 /* AFNetworking.h in Headers */,
 				9A84D4D51A88C380008EF006 /* AFHTTPRequestOperation.h in Headers */,
 				9A84D4E11A88C380008EF006 /* AFHTTPSessionManager.h in Headers */,
 				9A84D5351A88C3E3008EF006 /* UIWebView+AFNetworking.h in Headers */,
@@ -512,7 +511,6 @@
 				9A84D4E91A88C380008EF006 /* AFNetworkReachabilityManager.h in Headers */,
 				9A84D4EF1A88C380008EF006 /* AFSecurityPolicy.h in Headers */,
 				9A84D4DB1A88C380008EF006 /* AFHTTPRequestOperationManager.h in Headers */,
-				9A84D4E71A88C380008EF006 /* AFNetworking.h in Headers */,
 				9A84D5281A88C3E3008EF006 /* UIButton+AFNetworking.h in Headers */,
 				9A84D5011A88C380008EF006 /* AFURLResponseSerialization.h in Headers */,
 				9A84D51F1A88C3E3008EF006 /* AFNetworkActivityIndicatorManager.h in Headers */,
@@ -557,7 +555,7 @@
 			);
 			name = AFNetworkActivityLoggeriOS;
 			productName = AFNetworkActivityLogger;
-			productReference = 5CEF2FA01ACB71EA003E8F61 /* AFNetworkActivityLoggeriOS.framework */;
+			productReference = 5CEF2FA01ACB71EA003E8F61 /* AFNetworkActivityLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5CEF2FC81ACB720E003E8F61 /* AFNetworkActivityLoggerOSX */ = {
@@ -576,7 +574,7 @@
 			);
 			name = AFNetworkActivityLoggerOSX;
 			productName = AFNetworkActivityLoggerOSX;
-			productReference = 5CEF2FC91ACB720E003E8F61 /* AFNetworkActivityLoggerOSX.framework */;
+			productReference = 5CEF2FC91ACB720E003E8F61 /* AFNetworkActivityLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A84D4861A88C1E7008EF006 /* AFNetworkingiOS */ = {
@@ -594,7 +592,7 @@
 			);
 			name = AFNetworkingiOS;
 			productName = AFNetworkingLib;
-			productReference = 9A84D4871A88C1E7008EF006 /* AFNetworkingiOS.framework */;
+			productReference = 9A84D4871A88C1E7008EF006 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A84D4A71A88C20D008EF006 /* AFNetworkingOSX */ = {
@@ -612,7 +610,7 @@
 			);
 			name = AFNetworkingOSX;
 			productName = AFNetworkingOSX;
-			productReference = 9A84D4A81A88C20D008EF006 /* AFNetworkingOSX.framework */;
+			productReference = 9A84D4A81A88C20D008EF006 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -777,7 +775,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = AFNetworkActivityLoggeriOS;
+				PRODUCT_NAME = AFNetworkActivityLogger;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -794,7 +792,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = AFNetworkActivityLoggeriOS;
+				PRODUCT_NAME = AFNetworkActivityLogger;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -816,7 +814,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = AFNetworkActivityLoggerOSX;
+				PRODUCT_NAME = AFNetworkActivityLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -837,7 +835,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = AFNetworkActivityLoggerOSX;
+				PRODUCT_NAME = AFNetworkActivityLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -937,7 +935,7 @@
 				INFOPLIST_FILE = AFNetworkingiOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = AFNetworkingiOS;
+				PRODUCT_NAME = AFNetworking;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -952,7 +950,7 @@
 				INFOPLIST_FILE = AFNetworkingiOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = AFNetworkingiOS;
+				PRODUCT_NAME = AFNetworking;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -974,7 +972,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = AFNetworkingOSX;
+				PRODUCT_NAME = AFNetworking;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -994,7 +992,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = AFNetworkingOSX;
+				PRODUCT_NAME = AFNetworking;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -1010,6 +1008,7 @@
 				5CEF2FB51ACB71EA003E8F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CEF2FDC1ACB720E003E8F61 /* Build configuration list for PBXNativeTarget "AFNetworkActivityLoggerOSX" */ = {
 			isa = XCConfigurationList;
@@ -1018,6 +1017,7 @@
 				5CEF2FDE1ACB720E003E8F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A84D4811A88C1E7008EF006 /* Build configuration list for PBXProject "AFNetworkingLib" */ = {
 			isa = XCConfigurationList;
