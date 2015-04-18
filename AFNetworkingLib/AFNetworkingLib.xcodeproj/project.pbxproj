@@ -27,7 +27,6 @@
 		9A84D4E21A88C380008EF006 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C61A88C380008EF006 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4E31A88C380008EF006 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D4C71A88C380008EF006 /* AFHTTPSessionManager.m */; };
 		9A84D4E51A88C380008EF006 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D4C71A88C380008EF006 /* AFHTTPSessionManager.m */; };
-		9A84D4E81A88C380008EF006 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C81A88C380008EF006 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4E91A88C380008EF006 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C91A88C380008EF006 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4EA1A88C380008EF006 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D4C91A88C380008EF006 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D4EB1A88C380008EF006 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D4CA1A88C380008EF006 /* AFNetworkReachabilityManager.m */; };
@@ -520,7 +519,6 @@
 				9A84D4EA1A88C380008EF006 /* AFNetworkReachabilityManager.h in Headers */,
 				9A84D4F01A88C380008EF006 /* AFSecurityPolicy.h in Headers */,
 				9A84D4DC1A88C380008EF006 /* AFHTTPRequestOperationManager.h in Headers */,
-				9A84D4E81A88C380008EF006 /* AFNetworking.h in Headers */,
 				9A84D5021A88C380008EF006 /* AFURLResponseSerialization.h in Headers */,
 				5C328C2A1AE1BE8E0026C55F /* AFNetworking.h in Headers */,
 			);
