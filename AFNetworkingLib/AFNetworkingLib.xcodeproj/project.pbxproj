@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C328C2A1AE1BE8E0026C55F /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D48C1A88C1E7008EF006 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6537851B8C075E002C9834 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5101A88C3E3008EF006 /* UIActivityIndicatorView+AFNetworking.h */; };
 		5CEF2FE61ACB7239003E8F61 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A84D4A81A88C20D008EF006 /* AFNetworking.framework */; };
 		5CEF2FE71ACB7240003E8F61 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A84D4871A88C1E7008EF006 /* AFNetworking.framework */; };
 		5CEF2FE81ACB7249003E8F61 /* AFNetworkActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C50C0B31AC21BF50049E062 /* AFNetworkActivityLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,20 +54,19 @@
 		9A84D50B1A88C380008EF006 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D4D41A88C380008EF006 /* AFURLSessionManager.m */; };
 		9A84D51F1A88C3E3008EF006 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D50E1A88C3E3008EF006 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D5201A88C3E3008EF006 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D50F1A88C3E3008EF006 /* AFNetworkActivityIndicatorManager.m */; };
-		9A84D5221A88C3E3008EF006 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5101A88C3E3008EF006 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A84D5231A88C3E3008EF006 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D5111A88C3E3008EF006 /* UIActivityIndicatorView+AFNetworking.m */; };
-		9A84D5251A88C3E3008EF006 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5121A88C3E3008EF006 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A84D5251A88C3E3008EF006 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5121A88C3E3008EF006 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9A84D5261A88C3E3008EF006 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D5131A88C3E3008EF006 /* UIAlertView+AFNetworking.m */; };
-		9A84D5281A88C3E3008EF006 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5141A88C3E3008EF006 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A84D5281A88C3E3008EF006 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5141A88C3E3008EF006 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9A84D5291A88C3E3008EF006 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D5151A88C3E3008EF006 /* UIButton+AFNetworking.m */; };
-		9A84D52B1A88C3E3008EF006 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5161A88C3E3008EF006 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A84D52B1A88C3E3008EF006 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5161A88C3E3008EF006 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9A84D52C1A88C3E3008EF006 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D5171A88C3E3008EF006 /* UIImageView+AFNetworking.m */; };
 		9A84D52E1A88C3E3008EF006 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5181A88C3E3008EF006 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A84D52F1A88C3E3008EF006 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5191A88C3E3008EF006 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A84D52F1A88C3E3008EF006 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D5191A88C3E3008EF006 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9A84D5301A88C3E3008EF006 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D51A1A88C3E3008EF006 /* UIProgressView+AFNetworking.m */; };
-		9A84D5321A88C3E3008EF006 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D51B1A88C3E3008EF006 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A84D5321A88C3E3008EF006 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D51B1A88C3E3008EF006 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9A84D5331A88C3E3008EF006 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D51C1A88C3E3008EF006 /* UIRefreshControl+AFNetworking.m */; };
-		9A84D5351A88C3E3008EF006 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D51D1A88C3E3008EF006 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A84D5351A88C3E3008EF006 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A84D51D1A88C3E3008EF006 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9A84D5361A88C3E3008EF006 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A84D51E1A88C3E3008EF006 /* UIWebView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
@@ -491,6 +491,7 @@
 				9A84D4FB1A88C380008EF006 /* AFURLRequestSerialization.h in Headers */,
 				9A84D48D1A88C1E7008EF006 /* AFNetworking.h in Headers */,
 				9A84D4D51A88C380008EF006 /* AFHTTPRequestOperation.h in Headers */,
+				5C6537851B8C075E002C9834 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				9A84D4E11A88C380008EF006 /* AFHTTPSessionManager.h in Headers */,
 				9A84D5351A88C3E3008EF006 /* UIWebView+AFNetworking.h in Headers */,
 				9A84D5251A88C3E3008EF006 /* UIAlertView+AFNetworking.h in Headers */,
@@ -503,7 +504,6 @@
 				9A84D5281A88C3E3008EF006 /* UIButton+AFNetworking.h in Headers */,
 				9A84D5011A88C380008EF006 /* AFURLResponseSerialization.h in Headers */,
 				9A84D51F1A88C3E3008EF006 /* AFNetworkActivityIndicatorManager.h in Headers */,
-				9A84D5221A88C3E3008EF006 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

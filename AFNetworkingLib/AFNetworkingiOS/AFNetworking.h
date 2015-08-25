@@ -20,6 +20,7 @@
 #import "AFURLConnectionOperation.h"
 #import "AFHTTPRequestOperation.h"
 #import "AFHTTPRequestOperationManager.h"
+#import "AFNetworkActivityIndicatorManager.h"
 
 #ifndef __MAC_OS_X_VERSION_MAX_ALLOWED
 #import "UIKit+AFNetworking.h"
