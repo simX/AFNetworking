@@ -1,6 +1,5 @@
 // UIWebView+AFNetworking.m
-//
-// Copyright (c) 2013-2015 AFNetworking (http://afnetworking.com)
+// Copyright (c) 2011–2015 Alamofire Software Foundation (http://alamofire.org/)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -137,7 +136,10 @@
         __strong __typeof(weakSelf) strongSelf = weakSelf;
         [strongSelf loadData:data MIMEType:(MIMEType ?: [operation.response MIMEType]) textEncodingName:(textEncodingName ?: [operation.response textEncodingName]) baseURL:[operation.response URL]];
 
-        [strongSelf.delegate webViewDidFinishLoad:strongSelf];
+        if ([strongSelf.delegate respondsToSelector:@selector(webViewDidFinishLoad:)]) {
+            [strongSelf.delegate webViewDidFinishLoad:strongSelf];
+        }
+
 #pragma clang diagnostic pop
     } failure:^(AFHTTPRequestOperation * __unused operation, NSError *error) {
         if (failure) {
@@ -147,7 +149,9 @@
 
     [self.af_HTTPRequestOperation start];
 
-    [self.delegate webViewDidStartLoad:self];
+    if ([self.delegate respondsToSelector:@selector(webViewDidStartLoad:)]) {
+        [self.delegate webViewDidStartLoad:self];
+    }
 }
 
 @end
